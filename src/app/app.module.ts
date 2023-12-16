@@ -3,16 +3,13 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { ListProductComponent } from './comoponents/list-product/list-product.component';
-import { AddProductComponent } from './comoponents/add-product/add-product.component';
+import { AddComponent } from './components/add/add.component';
+import { DropComponent } from './components/drop/drop.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
-    ListProductComponent,
-    AddProductComponent
+    AddComponent,
+    DropComponent
   ],
   imports: [
     BrowserModule,
